@@ -39,3 +39,26 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code local overrides
+.claude/settings.local.json
+.claude/.cache/
+
+# SDD orchestrator local artifacts (regenerate with /sdd-init)
+.atl/
+
+# IDE
+.idea/
+.vscode/
+
+# Windows OS
+Thumbs.db
+desktop.ini
+
+# Local-only files
+*.local
+.claude/
+claude-rules.json
+claude-rules.lock.json
+.mcp.json
+CLAUDE.md
